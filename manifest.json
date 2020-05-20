@@ -1,0 +1,38 @@
+{
+    "content_scripts": [
+      {
+        "matches": [
+          "https://web.whatsapp.com/*"
+        ],
+        "run_at": "document_start",
+        "css": ["/background/app.css"],
+        "js": ["/background/app.js"]
+      }
+    ],
+    "name": "Whatsapp Web Enable Dark Mode",
+    "icons": {
+      "128": "icons/128.png"
+    },
+    "description": "You can enable or disable whatsapp dark mode ",
+    "background": {
+      "persistent": false,
+      "scripts": [
+        "/background/app.js"
+      ]
+    },
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "browser_action": {
+      "default_icon": {
+        "16": "icons/128.png",
+        "24": "icons/128.png",
+        "32": "icons/128.png"
+      },
+      "default_title": "__MSG_buttonTitle__"
+    },
+    "permissions": [
+      "tabs",
+      "activeTab"
+    ]
+  }
+  
