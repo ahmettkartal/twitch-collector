@@ -1,1 +1,1 @@
-Contains the code of basic opera extension. It just appends a "dark" class to whatsapp web page's body.
+Contains the code of basic opera extension. This extension collects Twitch's new feature Loyalty Point. 
